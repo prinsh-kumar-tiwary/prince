@@ -1,0 +1,79 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #e0e5ec;
+  background-image: url('bg.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;   
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+.neumorphic {
+  background: #e0e5ec;
+  border-radius: 20px;
+  box-shadow: 10px 10px 20px #a3b1c6,
+              -10px -10px 20px #ffffff;
+}
+
+
+.neumorphic-inset {
+  background: #e0e5ec;
+  border-radius: 20px;
+  box-shadow: inset 10px 10px 20px #a3b1c6,
+              inset -10px -10px 20px #ffffff;
+}
+
+
+.neumorphic-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  width: 300px;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 10px 10px 20px #a3b1c6,
+              -10px -10px 20px #ffffff;
+}
+
+
+.neumorphic-input {
+  border: none;
+  outline: none;
+  padding: 15px;
+  margin: 10px 0;
+  width: 100%;
+  border-radius: 20px;
+  font-size: 16px;
+  background: #e0e5ec;
+  box-shadow: inset 5px 5px 10px #a3b1c6,
+              inset -5px -5px 10px #ffffff;
+}
+
+
+.neumorphic-button {
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  margin-top: 20px;
+  border-radius: 20px;
+  background: #e0e5ec;
+  box-shadow: 5px 5px 10px #a3b1c6,
+              -5px -5px 10px #ffffff;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+
+.neumorphic-button:hover {
+  box-shadow: inset 5px 5px 10px #a3b1c6,
+              inset -5px -5px 10px #ffffff;
+}
